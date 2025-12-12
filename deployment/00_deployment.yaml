@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: html-openshift-app
-          image: ghcr.io/yannikackermann/html-openshift-app:latest
+          image: ghcr.io/yannikackermann/app:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
