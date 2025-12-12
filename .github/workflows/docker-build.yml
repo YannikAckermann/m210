@@ -27,7 +27,8 @@ jobs:
 
       - name: Set image name
         id: vars
-        run: echo "IMAGE=ghcr.io/${GITHUB_ACTOR}/html-openshift-app" >> $GITHUB_OUTPUT
+        run: echo "IMAGE=ghcr.io/yannikackermann/html-openshift-app" >> $GITHUB_OUTPUT
+
 
       - name: Build Docker image
         run: |
